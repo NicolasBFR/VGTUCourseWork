@@ -1,0 +1,393 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 7 ]> <html class="page_sommaire ltr fr no-js ie ie6 lte9 lte8 lte7" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr" dir="ltr"> <![endif]-->
+<!--[if IE 7 ]>    <html class="page_sommaire ltr fr no-js ie ie7 lte9 lte8 lte7" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr" dir="ltr"> <![endif]-->
+<!--[if IE 8 ]>    <html class="page_sommaire ltr fr no-js ie ie8 lte9 lte8" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr" dir="ltr"> <![endif]-->
+<!--[if IE 9 ]>    <html class="page_sommaire ltr fr no-js ie ie9 lte9" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr" dir="ltr"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="page_sommaire ltr fr no-js" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr" dir="ltr">
+<!--<![endif]-->
+	<head>
+		<script type='text/javascript'>/*<![CDATA[*/(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement);/*]]>*/</script>
+		
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+		<title>La Horde</title>
+<meta name="description" content="Portail m&#233;chamment antifasciste" />
+<link rel="icon" type="image/x-icon" href="https://lahorde.samizdat.net/squelettes/favicon.ico" />
+<link rel="shortcut icon" type="image/x-icon" href="https://lahorde.samizdat.net/squelettes/favicon.ico" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<script type="text/javascript">
+var error_on_ajaxform='Oups. Une erreur inattendue a empêché de soumettre le formulaire. Vous pouvez essayer à nouveau.';
+</script>
+
+<link rel="alternate" type="application/rss+xml" title="Syndiquer tout le site" href="spip.php?page=backend" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel='stylesheet' href='local/cache-css/246145f17e9dd1a6ce1a46734e52bdbc.css?1613840768' type='text/css' />
+
+
+
+
+
+
+
+
+
+
+
+
+<script type='text/javascript'>var var_zajax_content='content';</script><script type="text/javascript">/* <![CDATA[ */
+var box_settings = {tt_img:true,sel_g:"#documents_portfolio a[type='image/jpeg'],#documents_portfolio a[type='image/png'],#documents_portfolio a[type='image/gif']",sel_c:".mediabox",trans:"elastic",speed:"200",ssSpeed:"2500",maxW:"90%",maxH:"90%",minW:"400px",minH:"",opa:"0.9",str_ssStart:"Diaporama",str_ssStop:"Arrêter",str_cur:"{current}/{total}",str_prev:"Précédent",str_next:"Suivant",str_close:"Fermer",splash_url:""};
+var box_settings_splash_width = "600px";
+var box_settings_splash_height = "90%";
+var box_settings_iframe = true;
+/* ]]> */</script>
+<!-- insert_head_css -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type='text/javascript' src='local/cache-js/0323eb8b42456fe580c776fbdda30158.js?1610867291'></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- insert_head -->
+	
+	
+
+
+<link rel="alternate" type="application/json+oembed" href="https://lahorde.samizdat.net/oembed.api/?format=json&amp;url=https%3A%2F%2Flahorde.samizdat.net%2F" />	<!-- Plugin Métas + -->
+<!-- Dublin Core -->
+<link rel="schema.DC" href="https://purl.org/dc/elements/1.1/" />
+<link rel="schema.DCTERMS" href="https://purl.org/dc/terms/" />
+<meta name="DC.Format" content="text/html" />
+<meta name="DC.Type" content="Text" />
+<meta name="DC.Language" scheme="rfc1766" content="fr" />
+<meta name="DC.Title" lang="fr" content="La Horde -" />
+<meta name="DC.Description.Abstract" lang="fr" content="Portail m&#233;chamment antifasciste" />
+<meta name="DC.Date" scheme="DCTERMS.W3CDTF" content="2021-02-24" />
+
+<meta name="DC.Identifier" scheme="URI" content="https://lahorde.samizdat.net/" />
+<meta name="DC.Publisher" content="La Horde" />
+<meta name="DC.Source" scheme="URI" content="https://lahorde.samizdat.net" />
+
+<meta name="DC.Creator" content="La Horde" />
+
+
+
+
+
+<!-- Open Graph -->
+
+<meta property="og:site_name" content="La Horde" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="La Horde -" />
+<meta property="og:locale" content="fr_FR" />
+<meta property="og:url" content="https://lahorde.samizdat.net/" />
+<meta property="og:description" content="Portail m&#233;chamment antifasciste" />
+
+
+
+
+
+
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="La Horde -" />
+<meta name="twitter:description" content="Portail m&#233;chamment antifasciste" />
+<meta name="twitter:dnt" content="on" />
+<meta name="twitter:url" content="https://lahorde.samizdat.net/" />
+</head>
+	<body>
+	<div class="page">
+		<div class="header" id="header">
+            <header>
+    <div class="container">
+        <div class="d-flex justify-content-xl-between">
+            <div class="logo-site">
+                <h1 class="nom-site">
+                    
+                        <span class="d-none d-lg-block">
+                            <img src="squelettes/img/logo-LH-2020.svg" alt="La Horde" width="369" height="112">
+                        </span>
+                        <span class="d-block d-lg-none">
+                            <img src="squelettes/img/logo-LH-mobile.svg" alt="La Horde" width="222" height="52">
+                        </span>
+                    
+                </h1>
+            </div>
+            <div class="liens d-none d-lg-flex justify-content-lg-center align-items-lg-center">
+                <ul class="list-unstyled">
+                    <li><a href="la-horde-cest-quoi">Qui sommes-nous ?</a></li>
+                    <li><a href="contact">Nous contacter</a></li>
+                    <li><a href="https://listes.samizdat.net/sympa/info/lahorde-infos">Lettre d'infos</a></li>
+                </ul>
+            </div>
+            <div class="sociaux-recherche d-none d-xl-flex flex-xl-column justify-content-xl-center">
+                <ul class="list-inline sociaux">
+                    <li class="list-inline-item">
+                        <a href="https://twitter.com/@La_Horde">
+                            <svg width="35" height="35" role="img" aria-labelledby="icon-title-twitter">
+                                <title id="icon-title-twitter">Twitter</title>
+                                <use href="squelettes/img/lh.svg#twitter" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/La-Horde-462055057527140/">
+                            <svg width="35" height="35" role="img" aria-labelledby="icon-title-facebook">
+                                <title id="icon-title-facebook">Facebook</title>
+                                <use href="squelettes/img/lh.svg#facebook" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.youtube.com/channel/UC8m87InKl7_J0k5wC5x3E2A">
+                            <svg width="35" height="35" role="img" aria-labelledby="icon-title-youtube">
+                                <title id="icon-title-youtube">Youtube</title>
+                                <use href="squelettes/img/lh.svg#youtube" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.instagram.com/lahorde_mechamment_antifa/">
+                            <svg width="35" height="35" role="img" aria-labelledby="icon-title-instagram">
+                                <title id="icon-title-instagram">Instagram</title>
+                                <use href="squelettes/img/lh.svg#instagram" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="spip.php?page=backend">
+                            <svg width="35" height="35" role="img" aria-labelledby="icon-title-rss">
+                                <title id="icon-title-rss">Flux RSS</title>
+                                <use href="squelettes/img/lh.svg#rss" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="Groupes-antifascistes-en-France">
+                            <svg width="35" height="35" role="img" aria-labelledby="icon-title-collectifs">
+                                <title id="icon-title-collectifs">Collectifs</title>
+                                <use href="squelettes/img/lh.svg#collectifs" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+                <div class="formulaire_spip formulaire_recherche form-search recherche-header">
+<form action="spip.php?page=recherche" method="get"><div>
+	<input name="page" value="recherche" type="hidden"
+/>
+	
+	<label for="c03c" class="sr-only">Rechercher :</label>
+	<div class="input-group">
+		<input type="text"
+		       class="search text search-query form-control"
+		       name="recherche"
+		       id="c03c"
+		       placeholder="Rechercher"
+		       accesskey="4" autocapitalize="off" autocorrect="off" />
+		<span class="input-group-append">
+			<button type="submit">
+				<svg width="30" height="30" role="img" aria-labelledby="icon-title-loupe">
+					<title id="icon-title-loupe">Valider</title>
+					<use href="squelettes/img/lh.svg#loupe" />
+				</svg>
+			</button>
+		</span>
+	</div>
+</div></form>
+</div>
+</div>
+        </div>
+    </div>
+</header>
+<div class="container navigation-lh">
+    <nav class="navbar navbar-dark" id="nav">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-lh" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="d-none d-lg-block">Menu</span>
+    <svg width="50" height="48" role="img">
+        <use href="squelettes/img/lh.svg#sandwitch" />
+    </svg>
+</button>
+<div id="navbar-lh" class="collapse navbar-collapse nav-collapse-main">
+    <div class="menu-conteneur navbar-inner d-flex flex-column align-items-end">
+        <div class="d-block w-100 d-xl-none">
+            <div class="formulaire_spip formulaire_recherche form-search recherche-nav">
+<form action="spip.php?page=recherche" method="get"><div>
+	<input name="page" value="recherche" type="hidden"
+/>
+	
+	<label for="335b" class="sr-only">Rechercher :</label>
+	<div class="input-group">
+		<input type="text"
+		       class="search text search-query form-control"
+		       name="recherche"
+		       id="335b"
+		       placeholder="Rechercher"
+		       accesskey="4" autocapitalize="off" autocorrect="off" />
+		<span class="input-group-append">
+			<button type="submit">
+				<svg width="30" height="30" role="img" aria-labelledby="icon-title-loupe">
+					<title id="icon-title-loupe">Valider</title>
+					<use href="squelettes/img/lh.svg#loupe" />
+				</svg>
+			</button>
+		</span>
+	</div>
+</div></form>
+</div>
+</div>
+        <ul class="menu-liste menu-items nav menu-principal" data-depth="0">
+		<li class="menu-entree item menu-items__item menu-items__item_objet menu-items__item_rubrique">
+		<a href="Actualites" class="menu-items__lien">Actualit&#233;s</a> 
+		</li>
+		<li class="menu-entree item menu-items__item menu-items__item_objet menu-items__item_rubrique">
+		<a href="Initiatives" class="menu-items__lien">Initiatives</a> 
+		</li>
+		<li class="menu-entree item menu-items__item menu-items__item_objet menu-items__item_rubrique">
+		<a href="Reperes" class="menu-items__lien">Rep&#232;res</a> 
+		</li>
+		<li class="menu-entree item menu-items__item menu-items__item_page-speciale agenda">
+		<a href="spip.php?page=agenda" class="menu-items__lien">Agenda</a> 
+		</li>
+		
+	</ul><ul class="menu-liste menu-items nav" data-depth="0">
+		<li class="menu-entree item menu-items__item menu-items__item_objet menu-items__item_article">
+		<a href="Groupes-antifascistes-en-France" class="menu-items__lien">Groupes antifascistes en France</a> 
+		</li>
+		<li class="menu-entree item menu-items__item menu-items__item_objet menu-items__item_article">
+		<a href="cartographie-de-lextreme-droite-francaise-mise-a-jour-hiver-2019-2020" class="menu-items__lien">Cartographie de l&#8217;extrême droite</a> 
+		</li>
+		<li class="menu-entree item menu-items__item menu-items__item_lien">
+		<a href="https://lahorde.samizdat.net/materiel" class="menu-items__lien">Matériel (autocollants, livres, badges, brochures...)</a> 
+		</li>
+		
+	</ul><div class="raccourcis d-block d-lg-none">
+            <ul class="list-unstyled">
+                <li><a href="la-horde-cest-quoi" class="menu-items__lien">Qui sommes-nous ?</a></li>
+                <li><a href="contact" class="menu-items__lien">Nous contacter</a></li>
+                <li><a href="https://listes.samizdat.net/sympa/info/lahorde-infos" class="menu-items__lien">Lettre d'infos</a></li>
+            </ul>
+        </div>
+        <div class="d-block d-xl-none">
+            <ul class="list-inline sociaux">
+                <li class="list-inline-item">
+                    <a href="https://twitter.com/@La_Horde">
+                        <svg width="35" height="35" role="img" aria-labelledby="icon-title-twitter">
+                            <title id="icon-title-twitter">Twitter</title>
+                            <use href="squelettes/img/lh.svg#twitter" />
+                        </svg>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://www.facebook.com/La-Horde-462055057527140/">
+                        <svg width="35" height="35" role="img" aria-labelledby="icon-title-facebook">
+                            <title id="icon-title-facebook">Facebook</title>
+                            <use href="squelettes/img/lh.svg#facebook" />
+                        </svg>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://www.youtube.com/channel/UC8m87InKl7_J0k5wC5x3E2A">
+                        <svg width="35" height="35" role="img" aria-labelledby="icon-title-youtube">
+                            <title id="icon-title-youtube">Youtube</title>
+                            <use href="squelettes/img/lh.svg#youtube" />
+                        </svg>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://www.instagram.com/lahorde_mechamment_antifa/">
+                        <svg width="35" height="35" role="img" aria-labelledby="icon-title-instagram">
+                            <title id="icon-title-instagram">Instagram</title>
+                            <use href="squelettes/img/lh.svg#instagram" />
+                        </svg>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="spip.php?page=backend">
+                        <svg width="35" height="35" role="img" aria-labelledby="icon-title-rss">
+                            <title id="icon-title-rss">Flux RSS</title>
+                            <use href="squelettes/img/lh.svg#rss" />
+                        </svg>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#">
+                        <svg width="35" height="35" role="img" aria-labelledby="icon-title-collectifs">
+                            <title id="icon-title-collectifs">Collectifs</title>
+                            <use href="squelettes/img/lh.svg#collectifs" />
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+    </nav>
+</div>		</div>
+
+        <div class="container mt-4">
+            <div class="row justify-content-between">
+                <div class="content col-12" id="content">
+                    <section class="page-accueil">
+
+	<div class="main">
+
+		<div class="alaune">
+			<h2 class="sr-only">À la une</h2>
+			<div class="row">
+				<div class="grande-une col-lg-7">
+					
+					<a href="Generation-cache-misere-dur-retour-a-la-realite-pour-GI">
+						<img class='spip_logo spip_logos' alt="" src="local/cache-gd2/cb/c37b017fb25c870443176115d84d48.png?1613980907" width='840' height='560' />
+						<strong class="h3">Génération cache-misère&nbsp;: dur retour à la réalité pour GI</strong>
+					</a>
+					
+				</div>
+				<div class="col-lg-5 unes d-none d-lg-flex flex-lg-column justify-content-lg-between">
+					
+					<a href="Communique-unitaire-antifasciste-l-Etat-complice-de-l-extreme-droite">
+						<div class="row no-gutters">
+							<div class="col-lg-8">
+								<img class='spip_logo spip_logos' alt="" src="local/cache-gd2/17/33ec7a70479a4503f54bc754d5a214.png?1613980950" width='422' height='316.5' />							</div>
+							<div class="col-lg-4">
+								
+								<strong class="h5">Actualit&#233;s</strong>
+								
+								<span class="h5 titre-une-accueil">Communiqué unitaire antifasciste&nbsp;: l
