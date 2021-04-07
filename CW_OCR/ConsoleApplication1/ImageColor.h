@@ -3,5 +3,6 @@
 class ImageColor :
     protected Image
 {
+    void operator%=(ImageColor* u);
 };
 

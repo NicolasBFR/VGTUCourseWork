@@ -3,5 +3,6 @@
 class ImageBW :
     protected Image
 {
+    void operator%=(ImageBW* u);
 };
 
