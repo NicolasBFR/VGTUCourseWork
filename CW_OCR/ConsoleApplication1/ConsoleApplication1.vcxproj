@@ -144,10 +144,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Image.cpp" />
+    <ClCompile Include="ImageBW.cpp" />
+    <ClCompile Include="ImageColor.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Pixel.cpp" />
+    <ClCompile Include="PixelBW.cpp" />
+    <ClCompile Include="PixelColor.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Image.h" />
+    <ClInclude Include="ImageBW.h" />
+    <ClInclude Include="ImageColor.h" />
+    <ClInclude Include="Pixel.h" />
+    <ClInclude Include="PixelBW.h" />
+    <ClInclude Include="PixelColor.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

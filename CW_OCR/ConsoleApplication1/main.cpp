@@ -1,6 +1,12 @@
 #include <iostream>
 #include <SDL.h>
 #include <string>
+#include "Image.h"
+#include "ImageColor.h"
+#include "ImageBW.h"
+#include "Pixel.h"
+#include "PixelColor.h"
+#include "PixelBW.h"
 using namespace std;
 
 int main(int argc, char* argv[])
