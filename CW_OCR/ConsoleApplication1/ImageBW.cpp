@@ -1,5 +1,14 @@
 #include "ImageBW.h"
+#include "ImageColor.h"
 
-void ImageBW::operator%=(ImageBW* u) {
+ImageBW::ImageBW(ImageColor img)
+{
+}
 
+ImageBW::~ImageBW()
+{
+}
+
+void ImageBW::operator%=(std::string filename)
+{
 }

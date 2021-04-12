@@ -6,6 +6,12 @@
 #define IMAGE
 class Image
 {
+private:
+	Uint16 x;
+	Uint16 y;
+public:
+	Uint16 getX();
+	Uint16 getY();
 	virtual void operator%=(int u) = 0;
 };
 

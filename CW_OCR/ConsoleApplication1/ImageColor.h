@@ -9,6 +9,11 @@
 class ImageColor :
     protected Image
 {
+protected:
+    PixelColor* PixelMatrix;
+public:
+    ImageColor(string filename);
+    ~ImageColor();
     void operator%=(ImageColor* u);
 };
 
