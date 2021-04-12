@@ -3,6 +3,7 @@
 #include <SDL.h>
 #include <string>
 #include "Image.h"
+#include "PixelColor.h"
 
 #ifndef IMAGECOLOR
 #define IMAGECOLOR
@@ -12,7 +13,7 @@ class ImageColor :
 protected:
     PixelColor* PixelMatrix;
 public:
-    ImageColor(string filename);
+    ImageColor(std::string filename);
     ~ImageColor();
     void operator%=(ImageColor* u);
 };

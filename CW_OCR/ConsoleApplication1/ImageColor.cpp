@@ -1,6 +1,7 @@
 #include "ImageColor.h"
+#include "string"
 
-ImageColor::ImageColor(string filename)
+ImageColor::ImageColor(std::string filename)
 {
 }
 
