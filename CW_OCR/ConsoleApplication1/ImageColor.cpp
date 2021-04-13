@@ -19,7 +19,8 @@ ImageColor::ImageColor(std::string filename)
 	PixelMatrix = new PixelColor[x*y];
 	for (Uint16 i = 0; i < y; i++) {
 		for (Uint16 j = 0; j < x; j++) {
-			PixelMatrix[x * j + i] = PixelColor( SDLS->pixels[x * j + i] );
+			Uint32* tmp = SDLS->pixels[x * j + i];
+			PixelMatrix[x * j + i] = PixelColor( *tmp );
 		}
 	}
 	delete SDLS;
@@ -37,4 +38,8 @@ void ImageColor::operator%=(std::string filename){
 			PixelMatrix[x * j + i].toGray();
 		}
 	}
+}
+
+Uint32 ImageColor::GetPixel(Uint16 i, Uint16 j) {
+	return PixelMatrix[j * x + i].GetValue();
 }

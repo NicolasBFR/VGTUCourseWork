@@ -1,7 +1,8 @@
 #include "PixelBW.h"
 
-PixelBW::PixelBW(PixelColor pixel)
+PixelBW::PixelBW(bool boo)
 {
+	isWhite = boo;
 }
 
 bool PixelBW::GetWhite()

@@ -16,6 +16,7 @@ public:
     ImageColor(std::string filename);
     ~ImageColor();
     void operator%=(std::string filename);
+    Uint32 GetPixel(Uint16 i, Uint16 j);
 };
 
 

@@ -16,5 +16,6 @@ public:
     PixelColor();
     PixelColor(Uint32 values);
     Uint32 GetValue();
+    void toGray();
 };
 #endif
