@@ -6,7 +6,7 @@
 #define IMAGE
 class Image
 {
-private:
+protected:
 	Uint16 x;
 	Uint16 y;
 public:

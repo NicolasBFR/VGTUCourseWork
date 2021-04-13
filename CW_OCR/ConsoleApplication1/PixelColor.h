@@ -13,6 +13,7 @@ class PixelColor :
 private:
     Uint32 value;
 public:
+    PixelColor();
     PixelColor(Uint32 values);
     Uint32 GetValue();
 };

@@ -26,11 +26,13 @@ int main(int argc, char* argv[])
 
 	cin.get(); //*/
 	string filename;
+	cout << "Enter image name/path:" << endl;
 	getline(cin, filename);
 	ImageColor *img = new ImageColor(filename);
 	*img %= "gray";
 	ImageBW* imgBW = new ImageBW(img);
 	delete img;
+	cout << "Enter output name/path:" << endl;
 	getline(cin, filename);
 	*imgBW %= filename;
 	delete imgBW;

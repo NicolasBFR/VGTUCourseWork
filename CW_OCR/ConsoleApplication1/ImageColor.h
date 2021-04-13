@@ -8,7 +8,7 @@
 #ifndef IMAGECOLOR
 #define IMAGECOLOR
 class ImageColor :
-    protected Image
+    public Image
 {
 protected:
     PixelColor* PixelMatrix;
