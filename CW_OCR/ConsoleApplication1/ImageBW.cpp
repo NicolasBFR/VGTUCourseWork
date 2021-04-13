@@ -2,7 +2,7 @@
 #include "ImageColor.h"
 #include "string"
 
-ImageBW::ImageBW(ImageColor img)
+ImageBW::ImageBW(ImageColor *img)
 {
 }
 

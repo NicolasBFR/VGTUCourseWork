@@ -14,7 +14,7 @@ class ImageBW :
 private:
     PixelBW* PixelMatrix;
 public:
-    ImageBW(ImageColor img);
+    ImageBW(ImageColor *img);
     ~ImageBW();
     void operator%=(std::string filename);
 };

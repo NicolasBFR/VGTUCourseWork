@@ -11,6 +11,7 @@ using namespace std;
 
 int main(int argc, char* argv[])
 {
+	/*
 	cout << sizeof(bool); 
 	string tmp;
 	getline(cin, tmp);
@@ -23,6 +24,15 @@ int main(int argc, char* argv[])
 		cout << "SDL initialization succeeded!";
 	}
 
-	cin.get();
+	cin.get(); //*/
+	string filename;
+	getline(cin, filename);
+	ImageColor *img = new ImageColor(filename);
+	*img %= "gray";
+	ImageBW* imgBW = new ImageBW(img);
+	delete img;
+	getline(cin, filename);
+	*imgBW %= filename;
+	delete imgBW;
 	return 0;
 }

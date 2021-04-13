@@ -15,7 +15,7 @@ protected:
 public:
     ImageColor(std::string filename);
     ~ImageColor();
-    void operator%=(ImageColor* u);
+    void operator%=(std::string filename);
 };
 
 

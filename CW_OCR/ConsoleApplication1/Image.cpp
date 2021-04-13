@@ -2,10 +2,10 @@
 
 Uint16 Image::getX()
 {
-    return Uint16();
+    return x;
 }
 
 Uint16 Image::getY()
 {
-    return Uint16();
+    return y;
 }

@@ -9,6 +9,6 @@ ImageColor::~ImageColor()
 {
 }
 
-void ImageColor::operator%=(ImageColor* u) {
+void ImageColor::operator%=(std::string filename){
 
 }

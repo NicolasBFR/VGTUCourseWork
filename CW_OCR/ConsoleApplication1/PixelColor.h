@@ -11,10 +11,9 @@ class PixelColor :
     protected Pixel
 {
 private:
-    Uint8 blue;
-    Uint8 red;
-    Uint8 green;
+    Uint32 value;
 public:
     PixelColor(Uint32 values);
+    Uint32 GetValue();
 };
 #endif

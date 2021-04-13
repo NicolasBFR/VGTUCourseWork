@@ -12,7 +12,7 @@ private:
 public:
 	Uint16 getX();
 	Uint16 getY();
-	virtual void operator%=(std::string filename);
+	virtual void operator%=(std::string filename) = 0;
 };
 
 
