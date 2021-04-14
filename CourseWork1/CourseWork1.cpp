@@ -2,12 +2,13 @@
 #include <iostream>
 #include <string>
 #include "Caesar.h"
+#include "Atbash.h"
 
 using namespace std;
 
 int main()
 {
-	Caesar wow = Caesar();
-	wow *= wow.GetOffset();
+	Atbash wow = Atbash();
+	wow %= "whatever";
 	return 0;
 }
