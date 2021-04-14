@@ -8,6 +8,6 @@ using namespace std;
 int main()
 {
 	Caesar wow = Caesar();
-	wow %= wow.GetOffset();
+	wow *= wow.GetOffset();
 	return 0;
 }

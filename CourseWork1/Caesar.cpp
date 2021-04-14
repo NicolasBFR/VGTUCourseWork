@@ -29,6 +29,11 @@ void Caesar::operator%=(string str)
 	cout << "Encoded string : " << encodede << endl;
 }
 
+void Caesar::operator*=(string str)
+{
+	operator%=( to_string(-1*stoi(str) ) );
+}
+
 string Caesar::GetOffset()
 {
 	return offset;

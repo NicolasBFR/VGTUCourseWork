@@ -13,6 +13,7 @@ private:
 public:
 	Caesar();
 	void operator%=(string str);
+	void operator*=(string str);
 	string GetOffset();
 
 
