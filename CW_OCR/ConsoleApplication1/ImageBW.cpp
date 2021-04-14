@@ -11,15 +11,14 @@ ImageBW::ImageBW(ImageColor *img)
 {
     x = img->getX();
     y = img->getY();
-    PixelMatrix = new PixelBW(x * y);
-    Uint32* intImg = NULL;
-    intImg = (Uint32*) malloc(x * y * sizeof(Uint32));
+    PixelMatrix = new PixelBW();
+    Uint32* intImg = new Uint32[x * y];
     Uint32 sum;
     //Integral image
     for (Uint16 i = 0; i < x; i++) {
         sum = 0;
         for (Uint16 j = 0; j < y; j++) {
-            sum += in[j * x + i];
+            sum += img->GetPixel(i,j);
             if (i == 0) {
                 intImg[j * x + i] = sum;
             }
@@ -52,7 +51,7 @@ ImageBW::ImageBW(ImageColor *img)
             Uint16 count = (x2 - x1) * (y2 - y1);
             sum = intImg[y2 * x + x2] - intImg[(y1 - 1) * x + x2]
                 - intImg[y2 * x + x1 - 1] + intImg[(y1 - 1) * x + x1 - 1];
-            if ((in[j * x + i] * count) <= (sum * (100 - t) / 100)) {
+            if ((img->GetPixel(i, j) * count) <= (sum * (100 - t) / 100)) {
                 PixelMatrix[j * x + i] = true;
             }
             else {
@@ -71,21 +70,21 @@ ImageBW::~ImageBW()
 void ImageBW::operator%=(std::string filename)
 {
     //Create SDL surface
-    SDL_Surface* image = (SDL_Surface*) new char[ x * y * sizeof(Uint32)+sizeof(SDL_Surface)];
+    SDL_Surface* image = new SDL_Surface;
     image = SDL_CreateRGBSurface(0, x, y, 32, 0, 0, 0, 0);
     image = SDL_ConvertSurfaceFormat(image, SDL_PIXELFORMAT_ARGB8888, 0);
     Uint32* pixels = (Uint32*)image->pixels;
     //For each pixel
-    for (int j = 0; y < image->h; y++)
+    for (int j = 0; j < image->h; j++)
     {
-        for (int i = 0; x < image->w; x++)
+        for (int i = 0; i < image->w; i++)
         {
             //Save pixel in the SDL surface
-            if (PixelMatrix[j * image->w + i].GetWhite()) {
-                pixels[j * image->w + i] = (0xFF << 24) | (0xFF << 16) | (0xFF << 8) | 0xFF;
+            if (PixelMatrix[j * x+ i].GetWhite()) {
+                pixels[j * x + i] = (0xFF << 24) | (0xFF << 16) | (0xFF << 8) | 0xFF;
             }
             else {
-                pixels[j * image->w + i] = (0xFF << 24) | (0 << 16) | (0 << 8) | 0;
+                pixels[j * x + i] = (0xFF << 24) | (0 << 16) | (0 << 8) | 0;
             }
         }
     }

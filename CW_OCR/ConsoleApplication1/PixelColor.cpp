@@ -1,6 +1,8 @@
 #include "PixelColor.h"
 
-PixelColor::PixelColor() {}
+PixelColor::PixelColor() {
+	value = 0;
+}
 PixelColor::PixelColor(Uint32 values = 0)
 {
 	value = values;

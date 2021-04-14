@@ -12,7 +12,7 @@ class PixelBW :
 private:
     bool isWhite;
 public:
-    PixelBW() {}
+    PixelBW();
     PixelBW(bool boo);
     bool GetWhite();
 

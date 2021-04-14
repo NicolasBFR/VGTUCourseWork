@@ -7,7 +7,10 @@
 #include "Pixel.h"
 #include "PixelColor.h"
 #include "PixelBW.h"
+#include <fstream>
+
 using namespace std;
+
 
 int main(int argc, char* argv[])
 {
@@ -25,10 +28,15 @@ int main(int argc, char* argv[])
 	}
 
 	cin.get(); //*/
-	string filename;
-	cout << "Enter image name/path:" << endl;
-	getline(cin, filename);
+	string filename = "C:\\Users\\33768\\Desktop\\OOProgramming\\CW\\CW_OCR\\Debug\\aaa.bmp";
+	ifstream myFile("C:\\Users\\33768\\Desktop\\OOProgramming\\CW\\CW_OCR\\Debug\\aaa.bmp");
+	if (!myFile.is_open()) {
+		cout << "connard" << endl;
+	}
+	//cout << "Enter image name/path:" << endl;
+	//getline(cin, filename);
 	ImageColor *img = new ImageColor(filename);
+	return 0;
 	*img %= "gray";
 	ImageBW* imgBW = new ImageBW(img);
 	delete img;

@@ -12,6 +12,7 @@ protected:
 public:
 	Uint16 getX();
 	Uint16 getY();
+	Image();
 	virtual void operator%=(std::string filename) = 0;
 };
 
