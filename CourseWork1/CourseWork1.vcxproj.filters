@@ -21,9 +21,27 @@
     <ClCompile Include="Caesar.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Atbash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vigenere.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HomeMade.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Caesar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Atbash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vigenere.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HomeMade.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

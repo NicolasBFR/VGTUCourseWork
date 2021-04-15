@@ -139,11 +139,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Atbash.cpp" />
     <ClCompile Include="Caesar.cpp" />
     <ClCompile Include="CourseWork1.cpp" />
+    <ClCompile Include="HomeMade.cpp" />
+    <ClCompile Include="Vigenere.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Atbash.h" />
     <ClInclude Include="Caesar.h" />
+    <ClInclude Include="HomeMade.h" />
+    <ClInclude Include="Vigenere.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
