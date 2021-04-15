@@ -3,12 +3,14 @@
 #include <string>
 #include "Caesar.h"
 #include "Atbash.h"
+#include "Vigenere.h"
 
 using namespace std;
 
 int main()
 {
-	Atbash wow = Atbash();
-	wow %= "whatever";
+	Vigenere wow = Vigenere();
+	wow %= "six";
+	wow *= "six";
 	return 0;
 }
