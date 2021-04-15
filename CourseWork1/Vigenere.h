@@ -4,14 +4,16 @@
 
 using namespace std;
 
-class Atbash
+class Vigenere
 {
 private:
 	string original;
 	string encodede;
+	string offset;
 public:
-	Atbash();
+	Vigenere();
 	void operator%=(string str);
 	void operator*=(string str);
+	string GetOffset();
 };
 
