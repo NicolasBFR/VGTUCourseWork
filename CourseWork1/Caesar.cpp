@@ -25,6 +25,13 @@ void Caesar::operator%=(string str)
 			tmp += 97;
 			encodede[i] = ((char)tmp);
 		}
+		if (encodede[i] >= 65 && encodede[i] <= 90) {
+			int tmp = ((int)encodede[i]) + offS;
+			tmp -= 65;
+			tmp %= 26;
+			tmp += 65;
+			encodede[i] = ((char)tmp);
+		}
 	}
 	cout << "Encoded string : " << encodede << endl;
 }

@@ -21,6 +21,16 @@ void HomeMade::operator%=(string str)
 			tmp += 97;
 			encodede[i] = ((char)tmp);
 		}
+		else if (encodede[i] >= 65 && encodede[i] <= 90 && offS == 0) {
+			offS = ((int)encodede[i]) - 65;
+		}
+		else if (encodede[i] >= 65 && encodede[i] <= 90) {
+			int tmp = ((int)encodede[i]) + offS;
+			tmp -= 65;
+			tmp %= 26;
+			tmp += 65;
+			encodede[i] = ((char)tmp);
+		}
 		else {
 			offS = 0;
 		}
@@ -40,6 +50,16 @@ void HomeMade::operator*=(string str)
 			tmp -= 97;
 			tmp = (tmp + 26) % 26;
 			tmp += 97;
+			encodede[i] = ((char)tmp);
+		}
+		else if (encodede[i] >= 65 && encodede[i] <= 90 && offS == 0) {
+			offS = ((int)encodede[i]) - 65;
+		}
+		else if (encodede[i] >= 65 && encodede[i] <= 90) {
+			int tmp = ((int)encodede[i]) - offS;
+			tmp -= 65;
+			tmp = (tmp + 26) % 26;
+			tmp += 65;
 			encodede[i] = ((char)tmp);
 		}
 		else {
