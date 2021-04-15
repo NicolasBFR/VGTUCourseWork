@@ -4,12 +4,13 @@
 #include "Caesar.h"
 #include "Atbash.h"
 #include "Vigenere.h"
+#include "HomeMade.h"
 
 using namespace std;
 
 int main()
 {
-	Vigenere wow = Vigenere();
+	HomeMade wow = HomeMade();
 	wow %= "six";
 	wow *= "six";
 	return 0;
