@@ -1,14 +1,12 @@
 #pragma once
+#include "BaseNoOffset.h"
 #include <iostream>
 #include <string>
 
 using namespace std;
 
-class HomeMade
+class HomeMade : protected BaseNoOffset
 {
-private:
-	string original;
-	string encodede;
 public:
 	HomeMade();
 	void operator%=(string str);

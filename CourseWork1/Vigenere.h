@@ -1,15 +1,12 @@
 #pragma once
+#include "BaseOffset.h"
 #include <iostream>
 #include <string>
 
 using namespace std;
 
-class Vigenere
+class Vigenere : protected BaseOffset
 {
-private:
-	string original;
-	string encodede;
-	string offset;
 public:
 	Vigenere();
 	void operator%=(string str);

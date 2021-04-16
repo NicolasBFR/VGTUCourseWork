@@ -1,14 +1,12 @@
 #pragma once
+#include "BaseNoOffset.h"
 #include <iostream>
 #include <string>
 
 using namespace std;
 
-class Atbash
+class Atbash : protected BaseNoOffset
 {
-private:
-	string original;
-	string encodede;
 public:
 	Atbash();
 	void operator%=(string str);

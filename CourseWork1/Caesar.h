@@ -1,15 +1,12 @@
 #pragma once
+#include "BaseOffset.h"
 #include <iostream>
 #include <string>
 
 using namespace std;
 
-class Caesar
+class Caesar : protected BaseOffset
 {
-private:
-	string original;
-	string encodede;
-	string offset;
 public:
 	Caesar();
 	void operator%=(string str);
