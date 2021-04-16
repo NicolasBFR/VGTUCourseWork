@@ -44,5 +44,11 @@
     <ClInclude Include="HomeMade.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="BaseNoOffset.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseOffset.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

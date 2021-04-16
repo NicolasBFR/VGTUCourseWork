@@ -147,6 +147,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Atbash.h" />
+    <ClInclude Include="BaseNoOffset.h" />
+    <ClInclude Include="BaseOffset.h" />
     <ClInclude Include="Caesar.h" />
     <ClInclude Include="HomeMade.h" />
     <ClInclude Include="Vigenere.h" />
