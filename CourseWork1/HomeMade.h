@@ -1,11 +1,11 @@
 #pragma once
-#include "BaseNoOffset.h"
+#include "BaseOffset.h"
 #include <iostream>
 #include <string>
 
 using namespace std;
 
-class HomeMade : protected BaseNoOffset
+class HomeMade : protected BaseOffset
 {
 public:
 	HomeMade();

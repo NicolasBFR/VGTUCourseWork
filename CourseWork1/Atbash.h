@@ -1,11 +1,11 @@
 #pragma once
-#include "BaseNoOffset.h"
+#include "BaseOffset.h"
 #include <iostream>
 #include <string>
 
 using namespace std;
 
-class Atbash : protected BaseNoOffset
+class Atbash : protected BaseOffset
 {
 public:
 	Atbash();
