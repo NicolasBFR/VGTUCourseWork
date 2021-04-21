@@ -5,11 +5,11 @@
 
 using namespace std;
 
-class Atbash : protected BaseOffset
+class Atbash : public BaseOffset
 {
 public:
 	Atbash();
-	void operator%=(string str);
-	void operator*=(string str);
+	void operator%=(string str) override;
+	void operator*=(string str) override;
 };
 

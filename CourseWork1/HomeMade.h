@@ -5,11 +5,11 @@
 
 using namespace std;
 
-class HomeMade : protected BaseOffset
+class HomeMade : public BaseOffset
 {
 public:
 	HomeMade();
-	void operator%=(string str);
-	void operator*=(string str);
+	void operator%=(string str) override;
+	void operator*=(string str) override;
 };
 

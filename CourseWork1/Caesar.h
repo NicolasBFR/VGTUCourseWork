@@ -5,13 +5,13 @@
 
 using namespace std;
 
-class Caesar : protected BaseOffset
+class Caesar : public BaseOffset
 {
 public:
 	Caesar();
-	void operator%=(string str);
-	void operator*=(string str);
-	string GetOffset();
+	void operator%=(string str) override;
+	void operator*=(string str) override;
+	string GetOffset() override;
 
 
 };

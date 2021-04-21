@@ -5,12 +5,12 @@
 
 using namespace std;
 
-class Vigenere : protected BaseOffset
+class Vigenere : public BaseOffset
 {
 public:
 	Vigenere();
-	void operator%=(string str);
-	void operator*=(string str);
-	string GetOffset();
+	void operator%=(string str) override;
+	void operator*=(string str) override;
+	string GetOffset() override;
 };
 
