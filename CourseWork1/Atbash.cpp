@@ -13,7 +13,6 @@ Atbash::Atbash()
 
 void Atbash::operator%=(string str)
 {
-	int offset;
 	for (int i = 0; i < encodede.size(); i++) {
 		if (encodede[i] >= 97 && encodede[i] <= 122) {
 			int tmp = ((int)encodede[i]);
